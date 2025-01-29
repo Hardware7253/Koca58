@@ -6,8 +6,8 @@
 	(paper "A2")
 	(title_block
 		(title "Lily58 Koca")
-		(date "2025-01-21")
-		(rev "2")
+		(date "2025-01-29")
+		(rev "3")
 	)
 	(lib_symbols
 		(symbol "Connector:AudioJack4"
@@ -7098,6 +7098,12 @@
 		(uuid "e2b4da5d-33bc-4685-93ec-45f10ca7f99a")
 	)
 	(junction
+		(at 45.72 350.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3dc31f1-3171-4ce9-bddb-135824d2107a")
+	)
+	(junction
 		(at 372.11 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7175,6 +7181,12 @@
 		(color 0 0 0 0)
 		(uuid "fe007c09-ec6f-4ef6-9d4c-1102699eafe3")
 	)
+	(junction
+		(at 45.72 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe45d5b5-5d0a-42e2-a898-9500d73c651f")
+	)
 	(no_connect
 		(at 193.04 106.68)
 		(uuid "00eda69c-3002-4541-8f19-828b5f7a5dec")
@@ -7238,6 +7250,10 @@
 	(no_connect
 		(at 215.9 396.24)
 		(uuid "353f2b49-7d4d-4d23-8a5b-a3e8cc68ec1a")
+	)
+	(no_connect
+		(at 453.39 128.27)
+		(uuid "356bd567-edcc-4585-89ad-a5ea30b399cd")
 	)
 	(no_connect
 		(at 193.04 99.06)
@@ -7386,6 +7402,10 @@
 	(no_connect
 		(at 185.42 375.92)
 		(uuid "dd832f3a-e900-4c96-badb-6c5f8b57ea45")
+	)
+	(no_connect
+		(at 463.55 314.96)
+		(uuid "df48edf6-42fb-4bc9-a5d2-a4bad6a8ac25")
 	)
 	(no_connect
 		(at 488.95 130.81)
@@ -7794,16 +7814,6 @@
 			(type default)
 		)
 		(uuid "16b6622a-8cbc-478e-a908-d2b67edfb500")
-	)
-	(wire
-		(pts
-			(xy 435.61 128.27) (xy 453.39 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18105d76-9baf-4c3c-b069-a7ede1552fa9")
 	)
 	(wire
 		(pts
@@ -9134,6 +9144,16 @@
 			(type default)
 		)
 		(uuid "5df6d276-8d71-4be6-aa7a-3df292132777")
+	)
+	(wire
+		(pts
+			(xy 45.72 350.52) (xy 45.72 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e1bc0e6-008f-444c-ad35-9feb363a8015")
 	)
 	(wire
 		(pts
@@ -11247,16 +11267,6 @@
 	)
 	(wire
 		(pts
-			(xy 444.5 314.96) (xy 463.55 314.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc8b312a-c2f8-4042-a5e5-f294a93632a7")
-	)
-	(wire
-		(pts
 			(xy 429.26 113.03) (xy 453.39 113.03)
 		)
 		(stroke
@@ -11764,6 +11774,16 @@
 			(type default)
 		)
 		(uuid "dd08c6b3-b053-4c88-88ba-8e1c67171721")
+	)
+	(wire
+		(pts
+			(xy 45.72 151.13) (xy 45.72 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd6cf37a-1d35-47a6-9bd9-423cbfa86e19")
 	)
 	(wire
 		(pts
@@ -13701,28 +13721,6 @@
 			)
 		)
 	)
-	(global_label "COMMON_R"
-		(shape input)
-		(at 45.72 350.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "25018f82-89a8-477c-affd-5641ccc7dffa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.3329 350.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "R6"
 		(shape input)
 		(at 515.62 312.42 0)
@@ -14081,28 +14079,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COMMON_R"
-		(shape input)
-		(at 444.5 314.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "463a1315-9fb7-42c3-b96e-6bfdf58f8fc6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 431.1129 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -14941,28 +14917,6 @@
 			)
 		)
 	)
-	(global_label "COMMON_L"
-		(shape input)
-		(at 45.72 151.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "77fc7805-84fa-414c-a707-0266d4f4a6f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.5748 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "L8"
 		(shape input)
 		(at 488.95 151.13 0)
@@ -15057,28 +15011,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COMMON_L"
-		(shape input)
-		(at 435.61 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7f9b29cf-b11b-4dad-ba76-e3f42f1f99b3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 422.4648 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -26348,6 +26280,72 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
+		(at 45.72 354.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ffe7059-0cb6-46de-b6c4-4e4d3e7b16f6")
+		(property "Reference" "#PWR059"
+			(at 45.72 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 45.72 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 45.72 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d08fa8e2-c302-4f99-a6e3-edcdf6b435a7")
+		)
+		(instances
+			(project "Koca"
+				(path "/e4c6fdbb-fdc7-4ad4-a516-240d84cdc120"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
 		(at 414.02 280.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32320,6 +32318,72 @@
 			(project "Pro_V2"
 				(path "/e4c6fdbb-fdc7-4ad4-a516-240d84cdc120"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fefc551c-fd02-4c80-82f9-566f65b278fb")
+		(property "Reference" "#PWR060"
+			(at 45.72 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b25050b1-531a-4bbf-b95b-f9c91d6bf949")
+		)
+		(instances
+			(project "Koca"
+				(path "/e4c6fdbb-fdc7-4ad4-a516-240d84cdc120"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
