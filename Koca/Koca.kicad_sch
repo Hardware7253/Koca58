@@ -6,7 +6,7 @@
 	(paper "A2")
 	(title_block
 		(title "Lily58 Koca")
-		(date "2025-01-29")
+		(date "2025-02-14")
 		(rev "3")
 	)
 	(lib_symbols
@@ -213,166 +213,6 @@
 						)
 					)
 					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2279,163 +2119,6 @@
 					(at 0 -3.81 90)
 					(length 2.54)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:L"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7547,16 +7230,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 382.27) (xy 60.96 382.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03e75ae7-4056-49c9-9a3e-ce4e604d5e4f")
-	)
-	(wire
-		(pts
 			(xy 193.04 66.04) (xy 195.58 66.04)
 		)
 		(stroke
@@ -7734,16 +7407,6 @@
 			(type default)
 		)
 		(uuid "10f38870-56dc-4e68-a099-fe9db9bc6dae")
-	)
-	(wire
-		(pts
-			(xy 60.96 382.27) (xy 60.96 393.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1222ff0e-d848-4eab-9889-90813b171bb1")
 	)
 	(wire
 		(pts
@@ -8114,16 +7777,6 @@
 			(type default)
 		)
 		(uuid "26b3ddd7-b405-496a-8157-6213d4e82ccb")
-	)
-	(wire
-		(pts
-			(xy 49.53 384.81) (xy 49.53 396.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2827f3ea-0394-45ad-9866-57724fcd3728")
 	)
 	(wire
 		(pts
@@ -9007,16 +8660,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 384.81) (xy 24.13 396.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58e81e67-e5e1-4e50-8879-d1813837d3bb")
-	)
-	(wire
-		(pts
 			(xy 488.95 240.03) (xy 488.95 256.54)
 		)
 		(stroke
@@ -9367,16 +9010,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 383.54) (xy 58.42 382.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e647b60-2f4b-4b6c-97b6-20a85bc08ff6")
-	)
-	(wire
-		(pts
 			(xy 539.75 240.03) (xy 533.4 240.03)
 		)
 		(stroke
@@ -9607,16 +9240,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 393.7) (xy 21.59 396.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76a1178b-ac3a-4437-878c-6d793e01c631")
-	)
-	(wire
-		(pts
 			(xy 316.23 46.99) (xy 316.23 49.53)
 		)
 		(stroke
@@ -9744,16 +9367,6 @@
 			(type default)
 		)
 		(uuid "8005a91a-720b-45a4-88d7-6eec87b297a7")
-	)
-	(wire
-		(pts
-			(xy 46.99 384.81) (xy 49.53 384.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "802aaa19-6630-4d58-8925-936f897688ca")
 	)
 	(wire
 		(pts
@@ -10627,16 +10240,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 384.81) (xy 24.13 384.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b02cc8db-ec55-4f71-843f-0a383b13ca93")
-	)
-	(wire
-		(pts
 			(xy 95.25 86.36) (xy 95.25 105.41)
 		)
 		(stroke
@@ -11297,16 +10900,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 393.7) (xy 46.99 396.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd9992fd-c359-47cc-9ea3-fc20089952c7")
-	)
-	(wire
-		(pts
 			(xy 505.46 250.19) (xy 518.16 250.19)
 		)
 		(stroke
@@ -11614,16 +11207,6 @@
 			(type default)
 		)
 		(uuid "d85817b5-3d0f-4300-a6d7-38405c2c14ea")
-	)
-	(wire
-		(pts
-			(xy 21.59 386.08) (xy 21.59 384.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d86c94fd-bab7-42ae-85d8-3ac554061b48")
 	)
 	(wire
 		(pts
@@ -11977,16 +11560,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 391.16) (xy 58.42 393.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e65c33d4-3351-4bd0-a5bb-4d7c8129ca03")
-	)
-	(wire
-		(pts
 			(xy 506.73 92.71) (xy 488.95 92.71)
 		)
 		(stroke
@@ -12034,16 +11607,6 @@
 			(type default)
 		)
 		(uuid "eaed364b-21d2-43b7-9c92-30569cf79df5")
-	)
-	(wire
-		(pts
-			(xy 46.99 386.08) (xy 46.99 384.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec30979f-391e-48c8-9d41-f064226290e6")
 	)
 	(wire
 		(pts
@@ -12711,16 +12274,6 @@
 		)
 		(uuid "9362ac15-d493-4fc7-9ecb-7a1d2545b183")
 	)
-	(text "Coil testing for another project"
-		(exclude_from_sim no)
-		(at 31.75 382.016 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "93849f77-4bd3-4649-8978-1c6f220b9117")
-	)
 	(text "SW Debug"
 		(exclude_from_sim no)
 		(at 524.51 116.84 0)
@@ -12877,7 +12430,6 @@
 	)
 	(label "SWCLK_R"
 		(at 516.89 299.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12888,7 +12440,6 @@
 	)
 	(label "NRST_R"
 		(at 384.81 264.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12899,7 +12450,6 @@
 	)
 	(label "SWCLK_L"
 		(at 506.73 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12910,7 +12460,6 @@
 	)
 	(label "SDA_L"
 		(at 509.27 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12921,7 +12470,6 @@
 	)
 	(label "SDA_R"
 		(at 519.43 335.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12932,7 +12480,6 @@
 	)
 	(label "VDDA_L"
 		(at 478.79 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12943,7 +12490,6 @@
 	)
 	(label "SWDIO_L"
 		(at 506.73 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12954,7 +12500,6 @@
 	)
 	(label "SCL_R"
 		(at 519.43 332.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12965,7 +12510,6 @@
 	)
 	(label "NRST_L"
 		(at 374.65 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12976,7 +12520,6 @@
 	)
 	(label "SCL_L"
 		(at 509.27 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12987,7 +12530,6 @@
 	)
 	(label "JMP_BOOT0_L"
 		(at 403.86 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12998,7 +12540,6 @@
 	)
 	(label "SWDIO_R"
 		(at 516.89 297.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13009,7 +12550,6 @@
 	)
 	(label "VDDA_R"
 		(at 488.95 240.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13020,7 +12560,6 @@
 	)
 	(label "JMP_BOOT0_R"
 		(at 414.02 269.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20534,76 +20073,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 58.42 398.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00bd1304-9c22-43ef-8a73-1bca27abc8f5")
-		(property "Reference" "J9"
-			(at 62.23 396.8749 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 62.23 399.4149 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 58.42 398.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 398.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 58.42 398.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5cebc978-bf98-4f9c-931f-74bbc523860e")
-		)
-		(pin "2"
-			(uuid "4a67cb76-3d19-425c-8672-570208edd3b6")
-		)
-		(instances
-			(project "Pro_V2"
-				(path "/e4c6fdbb-fdc7-4ad4-a516-240d84cdc120"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle")
 		(at 177.8 73.66 0)
 		(unit 1)
@@ -21401,76 +20870,6 @@
 			(project "Pro_V2"
 				(path "/e4c6fdbb-fdc7-4ad4-a516-240d84cdc120"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 46.99 401.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e4cca22-e708-484b-abe9-e6c038622267")
-		(property "Reference" "J11"
-			(at 50.8 399.4149 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 50.8 401.9549 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 46.99 401.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 401.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 46.99 401.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32e3bf37-87d0-4b5e-ad60-4ff149ad98a1")
-		)
-		(pin "2"
-			(uuid "119f576e-ea8d-4e7a-8acc-215965f08a0a")
-		)
-		(instances
-			(project "Pro_V2"
-				(path "/e4c6fdbb-fdc7-4ad4-a516-240d84cdc120"
-					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -22763,75 +22162,6 @@
 			(project "Pro_V2"
 				(path "/e4c6fdbb-fdc7-4ad4-a516-240d84cdc120"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 58.42 387.35 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3d358edd-6beb-4037-b274-eb4932cc6f9a")
-		(property "Reference" "L1"
-			(at 55.118 385.826 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "L"
-			(at 55.372 388.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "pcb_coils:COIL_GENERATOR5"
-			(at 58.42 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 58.42 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1134c5c-f60c-47a8-9115-be23b1c3f1d5")
-		)
-		(pin "2"
-			(uuid "3f322414-027f-407a-ae5d-1c02f4a8baa1")
-		)
-		(instances
-			(project "Pro_V2"
-				(path "/e4c6fdbb-fdc7-4ad4-a516-240d84cdc120"
-					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -26478,76 +25808,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 21.59 401.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "981a3bbe-53ef-4398-b7d4-5af35f0ee5ce")
-		(property "Reference" "J10"
-			(at 25.4 399.4149 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 25.4 401.9549 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 21.59 401.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 21.59 401.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 21.59 401.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6367d5f-3215-4136-8303-77f9829b8402")
-		)
-		(pin "2"
-			(uuid "09c64fbb-ac4d-45d2-a39b-736971c49dc3")
-		)
-		(instances
-			(project "Pro_V2"
-				(path "/e4c6fdbb-fdc7-4ad4-a516-240d84cdc120"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 308.61 106.68 0)
 		(unit 1)
@@ -27146,75 +26406,6 @@
 			(project "Pro_V2"
 				(path "/e4c6fdbb-fdc7-4ad4-a516-240d84cdc120"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 21.59 389.89 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a69179df-4a7f-4807-8735-9fe3ea901e20")
-		(property "Reference" "L2"
-			(at 18.288 388.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "L"
-			(at 18.542 390.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "pcb_coils:COIL_GENERATOR7"
-			(at 21.59 389.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 21.59 389.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 21.59 389.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b80cf56e-97f1-44c9-a8d8-21b7e9561322")
-		)
-		(pin "2"
-			(uuid "44f43329-b808-4645-8d40-6ba05497e9d9")
-		)
-		(instances
-			(project ""
-				(path "/e4c6fdbb-fdc7-4ad4-a516-240d84cdc120"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -29271,75 +28462,6 @@
 			(project "Pro_V2"
 				(path "/e4c6fdbb-fdc7-4ad4-a516-240d84cdc120"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 46.99 389.89 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cad6b2c5-2a85-4b96-8bb9-b4f78c0f6ce1")
-		(property "Reference" "L3"
-			(at 43.688 388.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "L"
-			(at 43.942 390.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "pcb_coils:COIL_GENERATOR10"
-			(at 46.99 389.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 389.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 46.99 389.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0b6052f-64a7-4537-b94f-6936c5502aa2")
-		)
-		(pin "2"
-			(uuid "98a12114-8b1b-4370-b157-2c9aee42b105")
-		)
-		(instances
-			(project "Pro_V2"
-				(path "/e4c6fdbb-fdc7-4ad4-a516-240d84cdc120"
-					(reference "L3")
 					(unit 1)
 				)
 			)
