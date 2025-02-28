@@ -1,5 +1,5 @@
 Manufacturer Part Number （*）,Manufacturer,Designator（*）,Qty （*）,Description,Case,Type（SMD/THT),Top/Bottom,Comment
-X322518432MSB4SI,Yangxing Technology,"Y1,Y2",2,Crystal_SMD_3225-4Pin_3.2x2.5mm,SMD_3225-4Pin,SMD,Top,12Mhz
+X322512MSB4SI,Yangxing Technology,"Y1,Y2",2,Crystal_SMD_3225-4Pin_3.2x2.5mm,SMD_3225-4Pin,SMD,Top,12Mhz
 0402CG330J500NT,FengHua,"C28,C27,C13,C14",4,C_0402_1005Metric,C_0402_1005Metric,SMD,Top,33p
 CL05A105KA5NQNC,Samsung,"C5,C19,C4,C18",4,C_0402_1005Metric,C_0402_1005Metric,SMD,Top,1u
 0402WGF1501TCE,UNI-ROYAL,"R13,R6",2,R_0402_1005Metric,R_0402_1005Metric,SMD,Top,1k5
