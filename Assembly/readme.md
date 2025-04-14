@@ -9,7 +9,6 @@ This BOM is for mechanical parts that are needed to assemble both halves of the 
 |-------------------------------|-----|-------------------------------------|
 |M2 x 8mm standoff              |14   |Mounting plate & PCB to case         |
 |M2 x 4mm wafer head screw      |36   |Mounting standoffs                   |
-|M2 * 10mm threaded standoff    |20   |Adjustable tenting                   |
 |M2 rubber cap                  |8    |Preventing tenting legs from sliding |
 |3.5mm TRRS cable               |1    |Connecting keyboard halves           |
 
@@ -31,5 +30,5 @@ The files in this directory are used to flash the keyboard from the factory. If 
 
 On linux the following command can be used to flash the bootloader using an st-link: `$ st-flash write bootloader.bin 0x8000000`
 
-The qmk firmware can be flashed using `$ dfu-util -a 2 -d 1EAF:0003 -D koca_via.bin` while the board is in DFU mode (press the reset button to enter DFU mode).
+The qmk firmware can be flashed using `$ dfu-util -a 2 -d 1EAF:0003 -D koca_vial.bin` while the board is in DFU mode (press the reset button to enter DFU mode).
 

@@ -1,5 +1,4 @@
 "Comment";"Designator";"Footprint";"JLCPCB Part #";"Quantity"
-"SW_Push";;"MX_Hotswap";C41430893;58;
 "12Mhz";;"Crystal_SMD_3225-4Pin_3.2x2.5mm";"C9002";2;
 "HOLE";;"Standoff_Hole";;10;
 "30p";;"C_0402_1005Metric";"C1562";4;
@@ -22,6 +21,7 @@
 "USB_C_Receptacle";;"USB_TYPE-C-31-M-12";"C165948";2;
 "Conn_01x04_Pin";;"PinHeader_1x04_P2.54mm_Vertical";;2;
 "10n";;"C_0402_1005Metric";"C15195";2;
+"SW_Push";;"MX_Hotswap";C41430893;58;
 "SolderJumper_2_Open";;"SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm";;2;
 "Conn_01x04_Pin";;"SWD_POGO";;2;
 "SolderJumper_2_Open";;"SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm";;2;
