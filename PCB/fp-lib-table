@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Koca58")(type "KiCad")(uri "${KIPRJMOD}/Koca58.pretty")(options "")(descr ""))
+)

@@ -1,18 +1,20 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "70fc4438-3a69-4503-ae8c-21ccd746b935")
 	(paper "A4")
 	(title_block
-		(title "Lily58 Koca Plate")
-		(date "2025-01-10")
-		(rev "1")
+		(title "Koca58 Plate")
+		(date "2025-05-10")
+		(rev "v1.0.0")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -86,6 +88,17 @@
 				)
 			)
 			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.27 0) (xy 0.8636 0)
@@ -96,17 +109,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(pin passive line
@@ -128,6 +130,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(no_connect
@@ -422,7 +425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "yuchi:M2_HOLE_PCB"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
 			(at 106.68 140.97 0)
 			(effects
 				(font
@@ -747,7 +750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "yuchi:M2_HOLE_PCB"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
 			(at 119.38 140.97 0)
 			(effects
 				(font
@@ -1332,7 +1335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "yuchi:M2_HOLE_PCB"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
 			(at 93.98 140.97 0)
 			(effects
 				(font
@@ -2112,7 +2115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "yuchi:M2_HOLE_PCB"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
 			(at 81.28 140.97 0)
 			(effects
 				(font
@@ -2242,7 +2245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "yuchi:M2_HOLE_PCB"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
 			(at 130.81 140.97 0)
 			(effects
 				(font
@@ -2481,4 +2484,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
