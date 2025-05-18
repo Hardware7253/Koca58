@@ -2,7 +2,7 @@
 "Y1,Y2","12Mhz","Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm","Four pin crystal, GND on pins 2 and 4","2","C9002","Yangxing Technology","X322512MSB4SI"
 "U1,U3,U5,U7","USBLC6-2SC6","Package_TO_SOT_SMD:SOT-23-6","Very low capacitance ESD protection diode, 2 data-line, SOT-23-6","4","C2687116","UMW","USBLC6-2SC6"
 "J1,J5","USB_C_Receptacle_USB2.0_16P","Koca58:USB_TYPE-C-31-M-12","USB 2.0-only 16P Type-C Receptacle connector","2","C165948","HRO","TYPE-C-31-M-12"
-"U2,U6","STM32F103RCTx","Package_QFP:LQFP-64_10x10mm_P0.5mm","STMicroelectronics Arm Cortex-M3 MCU, 256KB flash, 48KB RAM, 72 MHz, 2.0-3.6V, 51 GPIO, LQFP64","2","C39704","STMicroelectronics","STM32F103RCT6TR"
+"U2,U6","STM32F103RCTx","Package_QFP:LQFP-64_10x10mm_P0.5mm","STMicroelectronics Arm Cortex-M3 MCU, 256KB flash, 48KB RAM, 72 MHz, 2.0-3.6V, 51 GPIO, LQFP64","2"," C8323","STMicroelectronics"," STM32F103RCT6"
 "D1,D2","WHITE","LED_SMD:LED_0603_1608Metric","Light emitting diode","2"," C2290","Kento","KT-0603W"
 "SW1,SW37","SW_Push","Button_Switch_SMD:SW_SPST_CK_RS282G05A3","Push button switch, generic, two pins","2","C118141","HRO","K2-1107ST-A4DW-06"
 "FB1,FB2","120R","Resistor_SMD:R_0603_1608Metric","Ferrite bead","2"," C1002","Sunlord","GZ1608D601TF "
