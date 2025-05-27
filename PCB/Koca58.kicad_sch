@@ -6,8 +6,8 @@
 	(paper "A2")
 	(title_block
 		(title "Koca58")
-		(date "2025-05-18")
-		(rev "v1.0.1")
+		(date "2025-05-27")
+		(rev "v1.0.2")
 		(company "oxnh")
 	)
 	(lib_symbols
@@ -28343,7 +28343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Koca58:Korean Hroparts Elec K2-1107ST-A4DW-06"
 			(at 369.57 261.62 0)
 			(show_name yes)
 			(effects
@@ -29309,7 +29309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Koca58:Korean Hroparts Elec K2-1107ST-A4DW-06"
 			(at 369.57 62.23 0)
 			(show_name yes)
 			(effects

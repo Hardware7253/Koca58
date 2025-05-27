@@ -4,7 +4,7 @@
 "J1,J5","USB_C_Receptacle_USB2.0_16P","Koca58:USB_TYPE-C-31-M-12","USB 2.0-only 16P Type-C Receptacle connector","2","C165948","HRO","TYPE-C-31-M-12"
 "U2,U6","STM32F103RCTx","Package_QFP:LQFP-64_10x10mm_P0.5mm","STMicroelectronics Arm Cortex-M3 MCU, 256KB flash, 48KB RAM, 72 MHz, 2.0-3.6V, 51 GPIO, LQFP64","2"," C8323","STMicroelectronics"," STM32F103RCT6"
 "D1,D2","WHITE","LED_SMD:LED_0603_1608Metric","Light emitting diode","2"," C2290","Kento","KT-0603W"
-"SW1,SW37","SW_Push","Button_Switch_SMD:SW_SPST_CK_RS282G05A3","Push button switch, generic, two pins","2","C118141","HRO","K2-1107ST-A4DW-06"
+"SW1,SW37","SW_Push","Koca58:Korean Hroparts Elec K2-1107ST-A4DW-06","Push button switch, generic, two pins","2","C118141","HRO","K2-1107ST-A4DW-06"
 "FB1,FB2","120R","Resistor_SMD:R_0603_1608Metric","Ferrite bead","2"," C1002","Sunlord","GZ1608D601TF "
 "SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24,SW25,SW26,SW27,SW28,SW29,SW30,SW31,SW32,SW33,SW34,SW35,SW36,SW38,SW39,SW40,SW41,SW42,SW43,SW44,SW45,SW46,SW47,SW48,SW49,SW50,SW51,SW52,SW53,SW54,SW55,SW56,SW57,SW58,SW59,SW60","MX_SWITCH","Koca58:MX_Hotswap","Push button switch, generic, two pins","58","C41430893","HanElectricity","CPG151101S11-16"
 "C12,C13,C25,C26","22u","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor","4","C59461","Samsung","CL10A226MQ8NRNC"
