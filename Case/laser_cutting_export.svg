@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 793.70079 1122.5197"
+   width="793.70081"
+   height="1122.5197"
+   version="1.1"
+   id="svg60"
+   sodipodi:docname="Koca - Laser Cut Export Sketch.dxf"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview60"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.1380472"
+     inkscape:cx="396.38975"
+     inkscape:cy="359.67401"
+     inkscape:window-width="1278"
+     inkscape:window-height="1411"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g60">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="793.70081"
+       height="1122.5197"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <desc
+     id="desc1">Koca - Laser Cut Export Sketch.dxf - scale = 1.000000, origin = (0.000000, 0.000000), method = manual</desc>
+  <defs
+     id="defs4" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="MODELSKETCH_VISIBLE"
+     id="g52">
+    <path
+       d="m 436.73629,374.87949 a 4.1574805,4.1574805 0 0 0 -8.31496,0 4.1574805,4.1574805 0 0 0 8.31496,0 z"
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.0133333;stroke-dasharray:none;stroke-opacity:1"
+       id="path42" />
+    <path
+       d="m 436.26385,388.20232 a 7.559055,7.559055 0 0 0 7.55906,-7.55905"
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.0133333;stroke-dasharray:none;stroke-opacity:1"
+       id="path43" />
+    <path
+       d="m 355.47645,374.87949 a 4.15748,4.15748 0 0 0 -8.31496,0 4.15748,4.15748 0 0 0 8.31496,0 z"
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.0133333;stroke-dasharray:none;stroke-opacity:1"
+       id="path44" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.0133333;stroke-dasharray:none;stroke-opacity:1"
+       d="m 346.90066,388.20406 h 89.363"
+       id="path45" />
+    <path
+       d="m 339.34112,380.64327 a 7.559055,7.559055 0 0 0 7.55905,7.55905"
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.0133333;stroke-dasharray:none;stroke-opacity:1"
+       id="path46" />
+    <path
+       d="m 443.82291,203.44012 a 7.559055,7.559055 0 0 0 -7.55906,-7.55906"
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.0133333;stroke-dasharray:none;stroke-opacity:1"
+       id="path47" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.0133333;stroke-dasharray:none;stroke-opacity:1"
+       d="m 443.82266,380.64406 v -177.2"
+       id="path48" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.0133333;stroke-dasharray:none;stroke-opacity:1"
+       d="m 436.26366,195.88406 h -36"
+       id="path49" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.0133333;stroke-dasharray:none;stroke-opacity:1"
+       d="m 400.26366,195.88406 v 56.27"
+       id="path50" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.0133333;stroke-dasharray:none;stroke-opacity:1"
+       d="m 400.26366,252.15406 h -60.923"
+       id="path51" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.0133333;stroke-dasharray:none;stroke-opacity:1"
+       d="m 339.34066,252.15406 v 128.49"
+       id="path52" />
+  </g>
+</svg>
