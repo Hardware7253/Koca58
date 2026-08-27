@@ -1,13 +1,13 @@
-(footprint "SWD_POGO"
-	(version 20241229)
+(footprint "SWD_POGO_P1.27"
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -2.54 0)
+		(at 0 -1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "bbb2f9e0-69f2-4aa3-92f6-108e76ba14b6")
+		(uuid "36c650df-c8e6-4262-9f75-5585643fa657")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "SWD_POGO"
-		(at 0 2.54 0)
+	(property "Value" "SWD_POGO_P1.27"
+		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "5744c145-b9e2-42d6-bb84-981e17361c10")
+		(uuid "15e765b1-9e0f-4fc8-a3a5-5d5069e49708")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e59e16f7-b9fc-4f9b-93f1-e730f228ef8c")
+		(uuid "bc28c87c-4b3d-4177-b59e-70a7010be8c2")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fcef6061-d392-4428-a9a8-74c372cd44c1")
+		(uuid "cfabec93-c0ab-42d8-bb68-1604d77353f4")
 		(effects
 			(font
 				(size 1 1)
@@ -53,12 +53,12 @@
 			)
 		)
 	)
-	(attr smd exclude_from_pos_files)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_text user "${REFERENCE}"
-		(at 0 4.04 0)
+		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "14aad699-694b-4acf-a0c8-7b67e9c64ff5")
+		(uuid "3f83bd00-e45b-465e-b590-47cfc7e180ab")
 		(effects
 			(font
 				(size 1 1)
@@ -67,28 +67,28 @@
 		)
 	)
 	(pad "1" smd circle
-		(at -3.81 0)
-		(size 1.8 1.8)
+		(at -1.905 0)
+		(size 0.8 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "4da39e37-be6b-4249-8119-ec11dda204e7")
+		(uuid "e5c0e3b7-8a34-4f99-811f-5c71837554e6")
 	)
 	(pad "2" smd circle
-		(at -1.27 0)
-		(size 1.8 1.8)
+		(at -0.635 0)
+		(size 0.8 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "efd401a2-d5af-41c4-a548-81f5edcbb611")
+		(uuid "6c05b1af-3db8-460f-add6-4c4c1073926a")
 	)
 	(pad "3" smd circle
-		(at 1.27 0)
-		(size 1.8 1.8)
+		(at 0.635 0)
+		(size 0.8 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "c1cc1e30-a906-4b12-ab87-06fdc3629454")
+		(uuid "5df3f49b-50b2-43df-b742-8947729e2b05")
 	)
 	(pad "4" smd circle
-		(at 3.81 0)
-		(size 1.8 1.8)
+		(at 1.905 0)
+		(size 0.8 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "3587855b-57fb-46b8-acbd-bfefc4a11e42")
+		(uuid "71cbab79-8c2a-4c9c-ba82-73ead3f73e17")
 	)
 	(embedded_fonts no)
 )
